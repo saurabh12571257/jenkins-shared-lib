@@ -1,3 +1,3 @@
-def cal(){
-  echo "hello"
+def call() {
+    echo "===> hello.groovy loaded successfully"
 }
