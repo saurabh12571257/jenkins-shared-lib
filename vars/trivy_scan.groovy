@@ -1,4 +1,3 @@
-def call(){
-  sh "trivy fs --exit-code 0 ."
-
+def call() {
+  sh "trivy fs --exit-code 1 --severity HIGH,CRITICAL ."
 }
